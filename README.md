@@ -22,7 +22,7 @@ date | DATE
 lbs | BOOLEAN
 
 #### Table Creation
-I have included two SQL scripts to [create](/sql/table_creation.sql) the workouts table and [populate](/sql/table_insertions.sql) it with one row of data.
+I have included two SQL scripts to [create](/sql/table_creation.sql) the ```workouts``` table and [populate](/sql/table_insertions.sql) it with one row of data.
 
 ### Node Instructions
 1) Install [npm](https://www.npmjs.com/) if you don't already have it on the machine hosting the app.
