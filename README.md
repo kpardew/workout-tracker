@@ -32,7 +32,7 @@ I have included two SQL scripts to [create](/sql/table_creation.sql) the ```work
 5) The app can be viewed at ```http://your-site.com:specified-port```.
 
 ### Handlebars
-This project uses [handlebars](https://handlebarsjs.com/) as a templating engine. There are countless other options, such as [ejs](http://ejs.co/), but handlebars uses standard HTML syntax, so there is not much of a learning curve to get up to speed with it.
+This project uses [handlebars](https://handlebarsjs.com/) as a templating engine. There are several other options, such as [ejs](http://ejs.co/), but handlebars uses standard HTML syntax, so there is not much of a learning curve to get up to speed with it.
 
 
 ## Potential Extensions
