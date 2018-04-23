@@ -1,0 +1,87 @@
+<div class="container theme-showcase" role="main">   
+    <div class="jumbotron" id="jumbotron">
+        <h1>Workout Tracker</h1>
+        <p>This handy app allows you to save, edit and delete your workout information.</p>
+    </div>
+
+    <div class="page-header">
+        <h1 id="formHeader">Add an Exercise</h1>
+    </div>  
+    <form id="inputForm">
+        <p>
+            <div class="form-group">
+                <div class="col-xs-1">
+                    <label for="name">Exercise:</label>
+                </div>
+                <div class="col-xs-2">
+                    <input class="form-control" type="text" name="name" id="name" placeholder="Exercise Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-1">
+                    <label for="reps">Repetitions:</label>
+                </div>
+                <div class="col-xs-1">
+                    <input class="form-control" type="number" min="0" name="reps" id="reps" value="1">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-1">
+                    <label for="weight">Weight:</label>
+                </div>
+                <div class="col-xs-1">
+                    <input class="form-control" type="number" min="0" name="weight" id="weight" value="1">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-1">
+                    <label for="date">Date:</label>
+                </div>
+                <div class="col-xs-2">
+                    <input class="form-control" type="date" name="date" id="date">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-1">
+                    <label for="lbs">Units:</label>
+                </div>
+                <div class="col-xs-1">
+                    <select name="lbs" id="lbs">
+                        <option value="1" selected>Pounds</option>
+                        <option value="0">Kilograms</option>
+                    </select>
+                </div>
+            </div>
+        </p>
+        <p>
+            <button type="button" class="btn btn-primary" id="insertButton">Add Exercise</button>
+        </p>
+    </form>
+
+    <div class="workoutResults">
+        <div class="page-header">
+            <h1>Workout Results</h1>
+        </div>
+
+         <div class="row" id="displayTable">
+            <div class="col-md-6">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Exercise</th>
+                            <th>Repetitions</th>
+                            <th>Weight</th>
+                            <th>Date</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div> <!-- /container -->
+
+<!-- Ajax Interactions -->
+<script src="js/ajax-home.js"></script>

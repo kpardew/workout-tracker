@@ -1,0 +1,21 @@
+{
+  "name": "workout-tracker",
+  "version": "1.0.0",
+  "description": "A workout tracker using a MySQL database.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Pardew",
+  "license": "GNU General Public License v3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kpardew/workout-tracker"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.12.0"
+  }
+}

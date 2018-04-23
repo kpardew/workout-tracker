@@ -1,0 +1,71 @@
+<div class="container theme-showcase" role="main">   
+    <div class="jumbotron" id="jumbotron">
+        <h1>Workout Tracker</h1>
+        <p>This handy app allows you to save, edit and delete your workout information.</p>
+    </div>
+
+    <div class="page-header">
+        <h1>Edit an Exercise</h1>
+    </div>  
+    <form>
+        <p>
+            <div class="form-group">
+                <div class="col-xs-1">
+                    <label for="name">Exercise:</label>
+                </div>
+                <div class="col-xs-2">
+                    <input class="form-control" type="text" id="name" value="{{name}}">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-1">
+                    <label for="reps">Repetitions:</label>
+                </div>
+                <div class="col-xs-1">
+                    <input class="form-control" type="number" name="reps" id="reps" value="{{reps}}">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-1">
+                    <label for="weight">Weight:</label>
+                </div>
+                <div class="col-xs-1">
+                    <input class="form-control" type="number" name="weight" id="weight" value="{{weight}}">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-1">
+                    <label for="date">Date:</label>
+                </div>
+                <div class="col-xs-2">
+                    <input class="form-control" type="date" name="date" id="date" value="{{date}}">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-1">
+                    <label for="lbs">Units:</label>
+                </div>
+                <div col-xs-1">
+                    <select name="lbs" id="lbs">
+                        {{!-- Determine which is selected based on lbs value --}}
+                        {{#if lbs}}
+                        <option value="1" selected>Pounds</option>
+                        <option value="0">Kilograms</option>
+                        {{else}}
+                        <option value="1">Pounds</option>
+                        <option value="0" selected>Kilograms</option>
+                        {{/if}}
+                    </select>
+                </div>
+            </div>
+        </p>
+        <p class="hidden">
+            <input type="hidden" name="id" id="id" value="{{id}}">
+        </p>
+        <p>
+            <button type="button" class="btn btn-primary" id="updateButton">Update Exercise</button>
+        </p>
+    </form>
+
+<!-- Ajax Interactions -->
+<script src="js/ajax-edit.js"></script>
