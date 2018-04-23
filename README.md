@@ -25,11 +25,11 @@ lbs | BOOLEAN
 I have included two SQL scripts to [create](/sql/table_creation.sql) the workouts table and [populate](/sql/table_insertions.sql) it with one row of data.
 
 ### Node Instructions
-1) Install npm if you don't already have it on the machine hosting the app.
-2) Navigate to the directory of your ```package.json``` file and type npm install.
-3) To run the app type node app.js.
-4) The server will start running on the port specified in app.js.
-5) The app can be viewed at http://your-site.com:specified-port.
+1) Install [npm](https://www.npmjs.com/) if you don't already have it on the machine hosting the app.
+2) Navigate to the directory of your ```package.json``` file and type ```npm install```.
+3) To run the app type ```node app.js```.
+4) The server will start running on the port specified in ```app.js```.
+5) The app can be viewed at ```http://your-site.com:specified-port```.
 
 
 ## Potential Extensions
