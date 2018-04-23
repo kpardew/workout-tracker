@@ -1,6 +1,6 @@
 # workout-tracker
 
-This is a very simple and lightweight full-stack Node app. The front end is written in JavaScript with simple AJAX calls to the Node endpoints. 
+This is a very simple full-stack Node app. The front end is written enirely in JavaScript with simple AJAX calls to the Node endpoints. In fact, the app is so lightweight that there are less than 300 lines JavaScript on the front and back end combined.
 
 ## Installation Instructions
 
@@ -33,4 +33,4 @@ I have included two SQL scripts to [create](/sql/table_creation.sql) the workout
 
 
 ## Potential Extensions
-The sky is the limit here. There are countless options for improvement. For instance, the database is a single table to hold the very basic information. So coutless options exist for extending the database. Several features could be added to the Node server and the front end has extremely limited functionality. Finally, the UI utilizes very standard Bootstrap styles. Much more from the Bootstrap library could be utilized.
+The sky is the limit here. There are countless options for improvement. For instance, the database is a single table to hold the minimal information about a single type of exercise. So coutless options exist for extending the database. Several features could be added to the Node server and the front end has extremely limited functionality. Finally, the UI utilizes very standard Bootstrap styles. Much more from the Bootstrap library could be utilized. Consider this a starting point to explore the Node ecosystem and have some fun with it!
