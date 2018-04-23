@@ -10,7 +10,7 @@ This is a very simple full-stack Node app. The front end is written enirely in J
 2) Create a database "YOUR_DATABASE" with username "YOUR_DATABASE_USER_NAME" and password "YOUR_DATABASE_PASSWORD"
 
 #### Database Schema
-Since this is currently a trivial application, there isn't much of a schema to speak of. There is one table called workouts, with the following attributes:
+Since this is currently a trivial application, there isn't much of a schema to speak of. There is one table called ```workouts```, with the following attributes:
 
 attribute | type
 --------- | ----
