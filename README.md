@@ -1,6 +1,6 @@
 # workout-tracker
 
-This is a very simple full-stack Node app. The front end is written enirely in JavaScript with simple AJAX calls to the Node endpoints. In fact, the app is so lightweight that there are less than 300 lines JavaScript on the front and back end combined.
+This is a very simple full-stack Node app. The front end is written enirely in JavaScript with simple AJAX calls to Node endpoints. In fact, the app is so lightweight that there are less than 300 lines of JavaScript on the front and back end combined.
 
 ## Installation Instructions
 
@@ -22,7 +22,7 @@ date | DATE
 lbs | BOOLEAN
 
 #### Table Creation
-I have included two SQL scripts to [create](/sql/table_creation.sql) the ```workouts``` table and [populate](/sql/table_insertions.sql) it with one row of data.
+I have included two SQL scripts to [create](/sql/table_creation.sql) the ```workouts``` table and [populate](/sql/table_insertions.sql) it with a single row of data.
 
 ### Node Instructions
 1) Install [npm](https://www.npmjs.com/) if you don't already have it on the machine hosting the app.
